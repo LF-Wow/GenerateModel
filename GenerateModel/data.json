@@ -1,0 +1,19 @@
+{
+    "id": 2,
+    "name": "车洗捷自营2号店",
+    "product_list": [
+        {
+            "product_num": 2,
+            "product_name": "车洗捷玻璃水",
+            "sale_price": "12.00",
+            "image_url": "/uploads/allimg/20201221/a4a01fe6e46e1157f1f775f952e1f954.png",
+            "pro_id_str": "24,27,33",
+            "pro_info": [
+                {
+                    "pro_name": "型号",
+                    "value_name": "6cm"
+                }
+            ]
+        }
+    ]
+}
