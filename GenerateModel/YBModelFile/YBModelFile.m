@@ -10,6 +10,8 @@
 #import "YBMFNode.h"
 #import "YBMFNameHandler.h"
 
+NSString *const localPath = @"/Users/chexijie/Desktop/GenerateModel/GenerateModel/";
+
 @interface YBModelFile ()
 @property (nonatomic, strong) YBMFNode *rootNode;
 @property (nonatomic, strong) YBMFConfig *config;
@@ -47,7 +49,7 @@
 //
 //            data = [NSData dataWithContentsOfFile:path];
             NSString *name = [data stringByDeletingPathExtension];
-            data = [[NSFileManager defaultManager] contentsAtPath:[NSString stringWithFormat:@"/Users/chexijie/Desktop/GenerateModel/GenerateModel/%@.json",name]];
+            data = [[NSFileManager defaultManager] contentsAtPath:[NSString stringWithFormat:@"%@%@.json",localPath,name]];
         }
         if (!data) goto fail;
     }
